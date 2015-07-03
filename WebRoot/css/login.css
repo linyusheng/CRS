@@ -1,0 +1,43 @@
+body {background:#e6e5ea;font-size: 13px; padding: 0px; margin: 0px; font-family: "微软雅黑", "Microsoft Yahei", "STXihei", arial, sans-serif;color:#666;}
+input,button { font-family: "微软雅黑", "Microsoft Yahei", "STXihei", arial, sans-serif;}
+.loginbox{box-shadow: 0px 10px 150px #666;width:428px;border-radius:3px;padding-bottom: 30px;
+    background: #fff;position:absolute;top:42%;left:50%;margin-top:-209px;margin-left: -214px;}
+a{text-decoration:none;color:#69c;}
+a:hover{color:#f90;}
+
+.title{width:100%;background:#6699cc;height: 150px;
+    padding-top:0px;border-top-left-radius: 3px;border-top-right-radius: 3px;}
+.title .logo{text-align: center;font-size: 35px;width: 100%;padding-top: 50px;color:#aaddff;
+    -webkit-box-reflect: below -4px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.2)));font-weight:lighter;}
+.title .logo b{color:#fff;font-weight: 400;}
+.title .info{text-align: right;font-size: 14px;color:#aaddff;padding-right: 14px;padding-top:20px;}	
+
+.w80{width: 80px;}
+.inputs{padding: 30px 30px 0px 45px;}
+.inputs div{width:268px;margin:0 auto;margin-bottom: 15px;}
+.inputs div span{display: block;float: left;width:36px;line-height:34px;height:34px;background: #BBBBBB;text-align: center;}
+.inputs div span i{color: #fff;font-size: 16px;}
+.inputs div input{height: 26px;width: 220px;}
+.inputs .check_code{margin-bottom: 0;}
+.inputs .check_code input{width:110px;display: block;float: left;}
+.inputs .check_code img{display: block;float: left;padding-left: 10px;width: 70px;height: 32px;}	
+
+form{padding-top: 13px;}
+input,input:focus {outline: none; box-shadow: none; border: 1px solid #bbb;padding:3px 5px;}
+input:focus {border-color: #75A1F0; outline: none; box-shadow: 0 0 12px #75A1F0; 
+	-webkit-transition: all 0.218s; -moz-transition: all 0.218s; -o-transition: all 0.218s; -ms-transition: all 0.218s; transition: all 0.218s;}
+
+.actions{margin:0 auto;width:254px;}
+.checkbox{border:none;padding-right: 10px;}
+.actions #submit{width:268px; height:36px;font-size:16px;border:none;outline: none;background: #6699cc;color:#fff;}
+.actions #submit:hover{background: #369;cursor: pointer;}
+.actions #submit:active{background: #444;}
+.msg{color: #f96;text-align: center;margin-bottom: -10px;padding-top: 10px;}
+.footer{color: #999;position: absolute;bottom: 15px;text-align: center;width: 100%;}
+
+
+.guest{text-align:center;margin: 0 auto;margin-top:30px;}
+.guest a{color:#69C;text-decoration:none;border:2px solid #cdf;
+    border-radius:20px;padding:5px 10px;display: inline-block;}
+.guest a i{padding-left: 8px;}
+.guest a:hover{color:#f60;border-color:#f60;}
